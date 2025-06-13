@@ -1,0 +1,38 @@
+$primary-color: #272727;
+$accent-color: #fc6f6f;
+$text-color: #fff;
+$font-weights: (
+        "regular":100,
+        "medium": 500,
+        "bold":700
+
+);
+$fonts:(
+        "C":"Calibri",
+        "A":"Arial",
+        "AB":"Arial Black"
+);
+
+
+body{
+        background-color: $primary-color;
+        margin: 20px;
+        padding: 0;
+}
+
+.main{
+        padding: 0%;
+        text-align: center;
+        width:50%;
+        margin: 0 auto;
+        background-color: $accent-color;
+        border-radius: 0%;
+        border-top:  solid 2px;
+        border-bottom:  solid 2px;
+
+
+
+
+
+
+}
